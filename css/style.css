@@ -7,7 +7,7 @@
 }
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *	Edit this section
 *
 * ======================================================= */
@@ -15,7 +15,7 @@ body {
   font-family: "Source Sans Pro", Arial, sans-serif;
   line-height: 1.8;
   font-size: 16px;
-  background: #fff;
+  background: #d9ebff;
   color: #848484;
   font-weight: 300;
   overflow-x: hidden;
@@ -109,7 +109,7 @@ figure {
   bottom: 0;
   right: 0;
   z-index: 1;
-  background: rgba(66, 64, 64, 0.9);
+  background: rgba(66, 64, 64, 0.5);
 }
 
 .fh5co-cover {
@@ -1138,3 +1138,7 @@ figure {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+#coverPara{
+  color: #F4D03F;
+}
