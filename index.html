@@ -82,16 +82,6 @@
 						<!-- START #fh5co-menu-wrap -->
 						<nav id="fh5co-menu-wrap" role="navigation">
 							<ul class="sf-menu" id="fh5co-primary-menu">
-								<li class="active">
-									<a href="index.html">Home</a>
-								</li>
-								<li>
-									<a href="#projects" class="fh5co-sub-ddown">Projects</a>
-
-								</li>
-
-								<li><a href="#skills">Skills</a></li>
-								<li><a href="#contact">Contact</a></li>
 							</ul>
 						</nav>
 					</div>
@@ -264,7 +254,7 @@
 <!-- Contact Me -->
 <div id="fh5co-contact" class="animate-box">
 	<div class="container">
-		<form action="#">
+		<form method="POST" action="http://formspree.io/mrayson601@gmail.com">
 			<div class="row">
 				<div class="col-md-6">
 					<h3 class="section-title" id="contact">Contact</h3>
@@ -277,19 +267,15 @@
 				</div>
 				<div class="col-md-6">
 					<div class="row">
-						<div class="col-md-6">
-							<div class="form-group">
-								<input type="text" class="form-control" placeholder="Name">
-							</div>
-						</div>
-						<div class="col-md-6">
-							<div class="form-group">
-								<input type="text" class="form-control" placeholder="Email">
-							</div>
-						</div>
 						<div class="col-md-12">
 							<div class="form-group">
-								<textarea name="" class="form-control" id="" cols="30" rows="7" placeholder="Message"></textarea>
+								<input type="email" class="form-control" name="email" placeholder="Your Email">
+							</div>
+						</div>
+
+						<div class="col-md-12">
+							<div class="form-group">
+								<textarea name="message" class="form-control" id="" cols="30" rows="7" placeholder="Your Message"></textarea>
 							</div>
 						</div>
 						<div class="col-md-12">
@@ -303,6 +289,8 @@
 		</form>
 	</div>
 </div>
+
+
 <!-- END fh5co-contact -->
 
 		<footer>
